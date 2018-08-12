@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2ECA8E2120D0FE00FA1889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ECA8D2120D0FE00FA1889 /* AppDelegate.swift */; };
+		AC2ECA962120D0FE00FA1889 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ECA952120D0FE00FA1889 /* GameViewController.swift */; };
+		AC2ECA992120D0FE00FA1889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2ECA972120D0FE00FA1889 /* Main.storyboard */; };
+		AC2ECA9B2120D0FF00FA1889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2ECA9A2120D0FF00FA1889 /* Assets.xcassets */; };
+		AC2ECA9E2120D0FF00FA1889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2ECA9C2120D0FF00FA1889 /* LaunchScreen.storyboard */; };
+		AC2ECAA62120D26F00FA1889 /* Knife.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ECAA52120D26F00FA1889 /* Knife.swift */; };
+		AC2ECAAB2120D74400FA1889 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ECAA82120D74300FA1889 /* GameScene.swift */; };
+		AC2ECAD82120E76900FA1889 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ECAD72120E76900FA1889 /* Person.swift */; };
+		AC2ECADA2120E9D800FA1889 /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ECAD92120E9D800FA1889 /* Floor.swift */; };
+		AC2ECADC2120EED800FA1889 /* BitMaskCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2ECADB2120EED800FA1889 /* BitMaskCategories.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC2ECA8A2120D0FE00FA1889 /* Knife Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knife Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2ECA8D2120D0FE00FA1889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC2ECA952120D0FE00FA1889 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AC2ECA982120D0FE00FA1889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC2ECA9A2120D0FF00FA1889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC2ECA9D2120D0FF00FA1889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC2ECA9F2120D0FF00FA1889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2ECAA52120D26F00FA1889 /* Knife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knife.swift; sourceTree = "<group>"; };
+		AC2ECAA82120D74300FA1889 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AC2ECAD72120E76900FA1889 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AC2ECAD92120E9D800FA1889 /* Floor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		AC2ECADB2120EED800FA1889 /* BitMaskCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategories.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC2ECA872120D0FE00FA1889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC2ECA812120D0FE00FA1889 = {
+			isa = PBXGroup;
+			children = (
+				AC2ECA8C2120D0FE00FA1889 /* Knife Runner */,
+				AC2ECA8B2120D0FE00FA1889 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC2ECA8B2120D0FE00FA1889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC2ECA8A2120D0FE00FA1889 /* Knife Runner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC2ECA8C2120D0FE00FA1889 /* Knife Runner */ = {
+			isa = PBXGroup;
+			children = (
+				AC2ECAA82120D74300FA1889 /* GameScene.swift */,
+				AC2ECA8D2120D0FE00FA1889 /* AppDelegate.swift */,
+				AC2ECA952120D0FE00FA1889 /* GameViewController.swift */,
+				AC2ECA972120D0FE00FA1889 /* Main.storyboard */,
+				AC2ECA9A2120D0FF00FA1889 /* Assets.xcassets */,
+				AC2ECA9C2120D0FF00FA1889 /* LaunchScreen.storyboard */,
+				AC2ECA9F2120D0FF00FA1889 /* Info.plist */,
+				AC2ECAD72120E76900FA1889 /* Person.swift */,
+				AC2ECAA52120D26F00FA1889 /* Knife.swift */,
+				AC2ECAD92120E9D800FA1889 /* Floor.swift */,
+				AC2ECADB2120EED800FA1889 /* BitMaskCategories.swift */,
+			);
+			path = "Knife Runner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC2ECA892120D0FE00FA1889 /* Knife Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2ECAA22120D0FF00FA1889 /* Build configuration list for PBXNativeTarget "Knife Runner" */;
+			buildPhases = (
+				AC2ECA862120D0FE00FA1889 /* Sources */,
+				AC2ECA872120D0FE00FA1889 /* Frameworks */,
+				AC2ECA882120D0FE00FA1889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Knife Runner";
+			productName = "Knife Runner";
+			productReference = AC2ECA8A2120D0FE00FA1889 /* Knife Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC2ECA822120D0FE00FA1889 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ligia Frangello";
+				TargetAttributes = {
+					AC2ECA892120D0FE00FA1889 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AC2ECA852120D0FE00FA1889 /* Build configuration list for PBXProject "Knife Runner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC2ECA812120D0FE00FA1889;
+			productRefGroup = AC2ECA8B2120D0FE00FA1889 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC2ECA892120D0FE00FA1889 /* Knife Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC2ECA882120D0FE00FA1889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2ECA992120D0FE00FA1889 /* Main.storyboard in Resources */,
+				AC2ECA9B2120D0FF00FA1889 /* Assets.xcassets in Resources */,
+				AC2ECA9E2120D0FF00FA1889 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC2ECA862120D0FE00FA1889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2ECADA2120E9D800FA1889 /* Floor.swift in Sources */,
+				AC2ECA962120D0FE00FA1889 /* GameViewController.swift in Sources */,
+				AC2ECADC2120EED800FA1889 /* BitMaskCategories.swift in Sources */,
+				AC2ECA8E2120D0FE00FA1889 /* AppDelegate.swift in Sources */,
+				AC2ECAAB2120D74400FA1889 /* GameScene.swift in Sources */,
+				AC2ECAA62120D26F00FA1889 /* Knife.swift in Sources */,
+				AC2ECAD82120E76900FA1889 /* Person.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC2ECA972120D0FE00FA1889 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2ECA982120D0FE00FA1889 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC2ECA9C2120D0FF00FA1889 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2ECA9D2120D0FF00FA1889 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC2ECAA02120D0FF00FA1889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC2ECAA12120D0FF00FA1889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC2ECAA32120D0FF00FA1889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A9RQJ3772;
+				INFOPLIST_FILE = "Knife Runner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ligia.Knife-Runner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC2ECAA42120D0FF00FA1889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A9RQJ3772;
+				INFOPLIST_FILE = "Knife Runner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ligia.Knife-Runner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC2ECA852120D0FE00FA1889 /* Build configuration list for PBXProject "Knife Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2ECAA02120D0FF00FA1889 /* Debug */,
+				AC2ECAA12120D0FF00FA1889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2ECAA22120D0FF00FA1889 /* Build configuration list for PBXNativeTarget "Knife Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2ECAA32120D0FF00FA1889 /* Debug */,
+				AC2ECAA42120D0FF00FA1889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC2ECA822120D0FE00FA1889 /* Project object */;
+}
