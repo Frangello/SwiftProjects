@@ -108,7 +108,7 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func equalAction(_ sender: UIButton) {
-        var total = 0
+        var total : Int = 0
         var l : Int = 0
         var last : Any
         while(!stack.isEmpty()){
