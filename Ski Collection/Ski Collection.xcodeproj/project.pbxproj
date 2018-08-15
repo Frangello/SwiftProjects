@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC391D7B2123D5CE0005494B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC391D7A2123D5CE0005494B /* DetailViewController.swift */; };
+		AC391D7D2123DEAE0005494B /* Ski.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC391D7C2123DEAE0005494B /* Ski.swift */; };
+		AC391D802123E0970005494B /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC391D7E2123E0970005494B /* CoreData.xcdatamodeld */; };
+		AC95909F2123C82D00849AF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC95909E2123C82D00849AF2 /* AppDelegate.swift */; };
+		AC9590A12123C82D00849AF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9590A02123C82D00849AF2 /* ViewController.swift */; };
+		AC9590A42123C82D00849AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9590A22123C82D00849AF2 /* Main.storyboard */; };
+		AC9590A62123C82E00849AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9590A52123C82E00849AF2 /* Assets.xcassets */; };
+		AC9590A92123C82E00849AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9590A72123C82E00849AF2 /* LaunchScreen.storyboard */; };
+		AC9590B72123CABE00849AF2 /* ski_faction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9590B02123CABD00849AF2 /* ski_faction.jpg */; };
+		AC9590B82123CABE00849AF2 /* ski_armada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9590B12123CABD00849AF2 /* ski_armada.jpg */; };
+		AC9590B92123CABE00849AF2 /* ski_salomon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9590B22123CABE00849AF2 /* ski_salomon.jpg */; };
+		AC9590BA2123CABE00849AF2 /* ski_blackdiamond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9590B32123CABE00849AF2 /* ski_blackdiamond.jpg */; };
+		AC9590BB2123CABE00849AF2 /* ski_4frnt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9590B42123CABE00849AF2 /* ski_4frnt.jpg */; };
+		AC9590BC2123CABE00849AF2 /* ski_dps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9590B52123CABE00849AF2 /* ski_dps.jpg */; };
+		AC9590BD2123CABE00849AF2 /* ski_blackcrows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9590B62123CABE00849AF2 /* ski_blackcrows.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC391D7A2123D5CE0005494B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AC391D7C2123DEAE0005494B /* Ski.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ski.swift; sourceTree = "<group>"; };
+		AC391D7F2123E0970005494B /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		AC95909B2123C82D00849AF2 /* Ski Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ski Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC95909E2123C82D00849AF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC9590A02123C82D00849AF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC9590A32123C82D00849AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC9590A52123C82E00849AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9590A82123C82E00849AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC9590AA2123C82E00849AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9590B02123CABD00849AF2 /* ski_faction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ski_faction.jpg; sourceTree = "<group>"; };
+		AC9590B12123CABD00849AF2 /* ski_armada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ski_armada.jpg; sourceTree = "<group>"; };
+		AC9590B22123CABE00849AF2 /* ski_salomon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ski_salomon.jpg; sourceTree = "<group>"; };
+		AC9590B32123CABE00849AF2 /* ski_blackdiamond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ski_blackdiamond.jpg; sourceTree = "<group>"; };
+		AC9590B42123CABE00849AF2 /* ski_4frnt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ski_4frnt.jpg; sourceTree = "<group>"; };
+		AC9590B52123CABE00849AF2 /* ski_dps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ski_dps.jpg; sourceTree = "<group>"; };
+		AC9590B62123CABE00849AF2 /* ski_blackcrows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ski_blackcrows.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9590982123C82D00849AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9590922123C82D00849AF2 = {
+			isa = PBXGroup;
+			children = (
+				AC391D7E2123E0970005494B /* CoreData.xcdatamodeld */,
+				AC95909D2123C82D00849AF2 /* Ski Collection */,
+				AC95909C2123C82D00849AF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC95909C2123C82D00849AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC95909B2123C82D00849AF2 /* Ski Collection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC95909D2123C82D00849AF2 /* Ski Collection */ = {
+			isa = PBXGroup;
+			children = (
+				AC9590B42123CABE00849AF2 /* ski_4frnt.jpg */,
+				AC9590B52123CABE00849AF2 /* ski_dps.jpg */,
+				AC9590B22123CABE00849AF2 /* ski_salomon.jpg */,
+				AC9590B02123CABD00849AF2 /* ski_faction.jpg */,
+				AC9590B62123CABE00849AF2 /* ski_blackcrows.jpg */,
+				AC9590B32123CABE00849AF2 /* ski_blackdiamond.jpg */,
+				AC9590B12123CABD00849AF2 /* ski_armada.jpg */,
+				AC95909E2123C82D00849AF2 /* AppDelegate.swift */,
+				AC9590A02123C82D00849AF2 /* ViewController.swift */,
+				AC9590A22123C82D00849AF2 /* Main.storyboard */,
+				AC9590A52123C82E00849AF2 /* Assets.xcassets */,
+				AC9590A72123C82E00849AF2 /* LaunchScreen.storyboard */,
+				AC9590AA2123C82E00849AF2 /* Info.plist */,
+				AC391D7A2123D5CE0005494B /* DetailViewController.swift */,
+				AC391D7C2123DEAE0005494B /* Ski.swift */,
+			);
+			path = "Ski Collection";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC95909A2123C82D00849AF2 /* Ski Collection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9590AD2123C82E00849AF2 /* Build configuration list for PBXNativeTarget "Ski Collection" */;
+			buildPhases = (
+				AC9590972123C82D00849AF2 /* Sources */,
+				AC9590982123C82D00849AF2 /* Frameworks */,
+				AC9590992123C82D00849AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ski Collection";
+			productName = "Ski Collection";
+			productReference = AC95909B2123C82D00849AF2 /* Ski Collection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9590932123C82D00849AF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ligia Frangello";
+				TargetAttributes = {
+					AC95909A2123C82D00849AF2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AC9590962123C82D00849AF2 /* Build configuration list for PBXProject "Ski Collection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9590922123C82D00849AF2;
+			productRefGroup = AC95909C2123C82D00849AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC95909A2123C82D00849AF2 /* Ski Collection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9590992123C82D00849AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9590BC2123CABE00849AF2 /* ski_dps.jpg in Resources */,
+				AC9590B82123CABE00849AF2 /* ski_armada.jpg in Resources */,
+				AC9590A92123C82E00849AF2 /* LaunchScreen.storyboard in Resources */,
+				AC9590B72123CABE00849AF2 /* ski_faction.jpg in Resources */,
+				AC9590BB2123CABE00849AF2 /* ski_4frnt.jpg in Resources */,
+				AC9590B92123CABE00849AF2 /* ski_salomon.jpg in Resources */,
+				AC9590BA2123CABE00849AF2 /* ski_blackdiamond.jpg in Resources */,
+				AC9590A62123C82E00849AF2 /* Assets.xcassets in Resources */,
+				AC9590BD2123CABE00849AF2 /* ski_blackcrows.jpg in Resources */,
+				AC9590A42123C82D00849AF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9590972123C82D00849AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC391D7D2123DEAE0005494B /* Ski.swift in Sources */,
+				AC391D7B2123D5CE0005494B /* DetailViewController.swift in Sources */,
+				AC391D802123E0970005494B /* CoreData.xcdatamodeld in Sources */,
+				AC9590A12123C82D00849AF2 /* ViewController.swift in Sources */,
+				AC95909F2123C82D00849AF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC9590A22123C82D00849AF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9590A32123C82D00849AF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC9590A72123C82E00849AF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9590A82123C82E00849AF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9590AB2123C82E00849AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC9590AC2123C82E00849AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9590AE2123C82E00849AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Ski Collection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ligia.Ski-Collection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC9590AF2123C82E00849AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Ski Collection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ligia.Ski-Collection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9590962123C82D00849AF2 /* Build configuration list for PBXProject "Ski Collection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9590AB2123C82E00849AF2 /* Debug */,
+				AC9590AC2123C82E00849AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9590AD2123C82E00849AF2 /* Build configuration list for PBXNativeTarget "Ski Collection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9590AE2123C82E00849AF2 /* Debug */,
+				AC9590AF2123C82E00849AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC391D7E2123E0970005494B /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC391D7F2123E0970005494B /* CoreData.xcdatamodel */,
+			);
+			currentVersion = AC391D7F2123E0970005494B /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC9590932123C82D00849AF2 /* Project object */;
+}
