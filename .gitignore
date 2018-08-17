@@ -4,5 +4,5 @@
 *.xcworkspacedata
 *.xcuserstate
 *.xcscheme
-xcschememanagement.plist
+*/xcschememanagement.plist
 *.xcbkptlist
