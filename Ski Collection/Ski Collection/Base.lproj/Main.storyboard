@@ -70,7 +70,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68Z-CH-tAY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68Z-CH-tAY">
                                 <rect key="frame" x="124" y="618" width="30" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="2iB-ai-XvT"/>
@@ -79,7 +79,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5z1-Hc-tPF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5z1-Hc-tPF">
                                 <rect key="frame" x="329" y="618" width="30" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="E6S-qx-abh"/>
@@ -119,9 +119,9 @@
                         <viewLayoutGuide key="safeArea" id="Z5h-AP-6QE"/>
                     </view>
                     <connections>
-                        <outlet property="allMtnStat" destination="68Z-CH-tAY" id="5ho-WI-wpc"/>
+                        <outlet property="allMtnStatLabel" destination="68Z-CH-tAY" id="bfU-Hx-1rX"/>
                         <outlet property="imageView" destination="y3V-tj-jPP" id="wcH-dS-2oD"/>
-                        <outlet property="parkStat" destination="5z1-Hc-tPF" id="nVs-OX-JRm"/>
+                        <outlet property="parkStatLabel" destination="5z1-Hc-tPF" id="h17-LN-wQa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Mi-JU-RBy" userLabel="First Responder" sceneMemberID="firstResponder"/>

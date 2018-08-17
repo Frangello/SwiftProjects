@@ -11,20 +11,27 @@ import UIKit
 class DetailViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
-    @IBOutlet var allMtnStat: UILabel!
-    @IBOutlet var parkStat: UILabel!
+    @IBOutlet var allMtnStatLabel: UILabel!
+    @IBOutlet var parkStatLabel: UILabel!
     
+
     var selectedImage : String?
+    var name : String?
+    var allMtnStat : String = ""
+    var parkStat : String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = selectedImage
+        title = name
 
         //Only executes if selectedImage is not nil
         if let imageToLoad = selectedImage {
             imageView.image  = UIImage(named: imageToLoad)
         }
+        
+        allMtnStatLabel.text = allMtnStat
+        parkStatLabel.text = parkStat
     }
 
     override func didReceiveMemoryWarning() {

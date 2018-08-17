@@ -9,11 +9,21 @@
 import Foundation
 import UIKit
 
-class Ski {
+struct Ski: Decodable{
+    let url : String
+    let name : String
+    let parkStats : String
+    let allMtnStats : String
+}
+
+struct Skis : Decodable {
+    let skis: [Ski]
     
-    var url : String = ""
-    var name : String = ""
-    var parksStats : Int = 0
-    var allMntStats : Int = 0
+    public func at(_ i : Int) -> Ski{
+        return skis[i]
+    }
     
+    public func size() -> Int{
+        return skis.count
+    }
 }

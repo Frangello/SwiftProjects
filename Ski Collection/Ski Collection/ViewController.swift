@@ -31,7 +31,6 @@ class ViewController: UITableViewController {
     //Sets how many rows are shown
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return skis.count
-        
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -44,7 +43,11 @@ class ViewController: UITableViewController {
         // load the detailViewController view
         if let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController {
             //set image in the detail vc with the url of the selected row
-            vc.selectedImage = skis[indexPath.row].url
+            let tmpSki = skis[indexPath.row]
+            vc.selectedImage = tmpSki.url
+            vc.parkStat = tmpSki.parkStats
+            vc.allMtnStat = tmpSki.allMtnStats
+            vc.name = tmpSki.name
             
             // push it onto the navigation controller
             navigationController?.pushViewController(vc, animated: true)
@@ -52,43 +55,48 @@ class ViewController: UITableViewController {
     }
     
     func populateSkis(){
-        //Refer to persistent container
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        //Create context from container
-        let context = appDelegate.persistentContainer.viewContext
-
-//        let entity = NSEntityDescription.entity(forEntityName: "Skis", in: context)
-//        let newSki = NSManagedObject(entity: entity!, insertInto: context)
+//        guard let gitUrl = URL(string: "https://github.com/Frangello/SwiftProjects/blob/master/Ski%20Collection/Ski%20Collection/skisJSON.json") else { return }
+//        URLSession.shared.dataTask(with: gitUrl) { (data, response
+//            , error) in
+//            guard let data = data else { return }
+//            print(data)
+//            do {
+//                let decoder = JSONDecoder()
+//                let gitData = try decoder.decode(Skis.self, from: data)
+//                print(gitData.skis)
 //
-//        newSki.setValue("ski_4frnt.jpg", forKey: "url")
-//        newSki.setValue("4Frnt Raven", forKey: "name")
-//        newSki.setValue(5, forKey: "park_stats")
-//        newSki.setValue(7, forKey: "allMtn_stats")
-//
-//        do {
-//            try context.save()
-//        } catch {
-//            print("Failed saving")
-//        }
-       
-        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Skis")
-        request.returnsObjectsAsFaults = false
-        do {
-            let result = try context.fetch(request)
-            for data in result as! [NSManagedObject] {
-                let ski = Ski()
-                ski.url = (data.value(forKey: "url") as! String)
-                ski.name = (data.value(forKey: "name") as! String)
-                ski.parksStats = (data.value(forKey: "park_stats") as! Int)
-                ski.allMntStats = (data.value(forKey: "allMtn_stats") as! Int)
-                skis.append(ski)
-            }
-            
-        } catch {
-            
-            print("Failed")
-        }
+//            } catch let err {
+//                print("Err", err)
+//            }
+//            }.resume()
         
+        //TODO: read from json file instead
+        let jsonString = """
+        {
+            "skis": [
+                {
+                "url": "ski_dps.jpg",
+                "name": "DPS Alchemist Nina",
+                "parkStats": "0",
+                "allMtnStats": "8"
+                },
+                {
+                "url": "ski_faction.jpg",
+                "name": "Faction Candide Tovex",
+                "parkStats": "6",
+                "allMtnStats": "7"
+                }
+            ]
+        }
+        """
+        
+        do {
+            let data = Data(jsonString.utf8)
+            let decoder = JSONDecoder()
+            skis = try decoder.decode(Skis.self, from: data).skis
+        } catch {
+            print("error: ", error)
+        }
     }
     
 }
