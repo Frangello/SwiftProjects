@@ -4,13 +4,44 @@
         "url": "ski_dps.jpg",
         "name": "DPS Alchemist Nina",
         "parkStats": "0",
-        "allMtnStats": "8"
+        "allMtnStats": "9"
         },
         {
         "url": "ski_faction.jpg",
         "name": "Faction Candide Tovex",
         "parkStats": "6",
+        "allMtnStats": "8"
+        },
+        {
+        "url": "ski_blackdiamond.jpg",
+        "name": "Black Diamond Boundary Pro 107",
+        "parkStats": "0",
+        "allMtnStats": "9"
+        },
+        {
+        "url": "ski_blackcrows.jpg",
+        "name": "Black Crows Camox Freebird",
+        "parkStats": "0",
+        "allMtnStats": "9"
+        },
+        {
+        "url": "ski_4frnt.jpg",
+        "name": "4FRNT Raven",
+        "parkStats": "0",
         "allMtnStats": "7"
+        },
+        {
+        "url": "ski_salomon.jpg",
+        "name": "Salomon QST 99",
+        "parkStats": "0",
+        "allMtnStats": "7"
+        },
+        {
+        "url": "ski_armada.jpg",
+        "name": "Armada ARW 96",
+        "parkStats": "9",
+        "allMtnStats": "6"
         }
-    ]
+	
+	]
 }
