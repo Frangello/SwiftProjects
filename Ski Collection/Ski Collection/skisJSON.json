@@ -3,14 +3,14 @@
     {
       "url": {"ski_dps.jpg"},
       "name": {"DPS Alchemist Nina"},
-      "parkStats": {0},
-      "allMtnStats": {8}
+      "parkStats": {"0"},
+      "allMtnStats": {"8"}
     },
     {
       "url": {"ski_faction.jpg"},
       "name": {"Faction Candide Tovex"}
-      "parkStats": {6},
-      "allMtnStats": {7}
+      "parkStats": {"6"},
+      "allMtnStats": {"7"}
     }
   ]
 }
